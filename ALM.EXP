@@ -1,0 +1,23 @@
+
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+(* @SYMFILEFLAGS := '2048' *)
+PROGRAM Alm
+VAR
+END_VAR
+(* @END_DECLARATION := '0' *)
+wAllVytAlm.0:= wAlm_Motor_M1_1 >0 AND wAlm_Motor_M2_1> 0;
+wAllVytAlm.1:= wAlm_Motor_M1_2 >0 AND wAlm_Motor_M2_2> 0;
+wAllVytAlm.2:= wAlm_Motor_M1_3 >0 AND wAlm_Motor_M2_3> 0;
+wAllVytAlm.3:= wAlm_Motor_M1_4 >0 AND wAlm_Motor_M2_4> 0;
+
+wAllMotorAlm.0:= wAlm_Motor_M1_1 >0;
+wAllMotorAlm.1:= wAlm_Motor_M2_1 >0;
+wAllMotorAlm.2:= wAlm_Motor_M1_2 >0;
+wAllMotorAlm.3:= wAlm_Motor_M2_2 >0;
+wAllMotorAlm.4:= wAlm_Motor_M1_3 >0;
+wAllMotorAlm.5:= wAlm_Motor_M2_3 >0;
+wAllMotorAlm.6:= wAlm_Motor_M1_4 >0;
+wAllMotorAlm.7:= wAlm_Motor_M2_4 >0;
+END_PROGRAM
